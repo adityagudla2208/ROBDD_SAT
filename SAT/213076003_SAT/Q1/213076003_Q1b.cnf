@@ -1,0 +1,65 @@
+c nvars nclauses
+p cnf 10 20
+
+c index of the variables >> [A,B,C,D,E,F,G,H,J,K] = [1,2,3,4,5,6,7,8,9,10]
+
+c clause 1 : ~A + ~B + ~E
+-1 -2 -5 0
+
+c clause 2 : A + E
+1 5 0
+
+c clause 3 : B + E
+2 5 0
+
+c clause 4 : ~B + ~C + ~F
+-2 -3 -6 0
+
+c clause 5 : B + F
+2 6 0
+
+c clause 6 : C + F
+3 6 0
+
+c clause 7 : ~C + ~D + ~G
+-3 -4 -7 0
+
+c clause 8 : C + G
+3 7 0
+
+c clause 9 : D + G
+4 7 0
+
+c clause 10 : E + F + H
+5 6 8 0
+
+c clause 11 : ~E + ~H
+-5 -8 0
+
+c clause 12 : ~F + ~H
+-6 -8 0
+
+c clause 13 : F + G + J
+6 7 9 0
+
+c clause 14 : ~F + ~J
+-6 -9 0
+
+c clause 15 : ~G + ~J
+-7 -9 0
+
+c clause 16 : H + J + ~K
+8 9 -10 0
+
+c clause 17 : H + ~J + K
+8 -9 10 0
+
+c clause 18 : ~H + J + K
+-8 9 10 0
+
+c clause 19 : ~H + ~J + ~K
+-8 -9 -10 0
+
+c clause 20 : ~K
+-10 0
+

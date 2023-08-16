@@ -1,0 +1,3 @@
+CNF for the given circuit is:
+
+(~A+~B+~E)(A+E)(B+E)(~B+~C+~F)(B+F)(C+F)(~C+~D+~G)(C+G)(D+G)(E+F+H)(~E+~H)(~F+~H)(F+G+J)(~F+~J)(~G+~J)(H+J+~K)(H+~J+K)(~H+J+K)(~H+~J+~K)

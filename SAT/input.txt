@@ -1,0 +1,41 @@
+c clause37 : ~p3 + ~x2 + ~p2 + s2
+-16 -15 -11 14 0
+
+c clause38 : ~p3 + ~x2 + p2 + ~s2
+-16 -15 11 -14 0
+
+c clause39 : ~p3 + x2 + ~p2 + ~s2
+-16 15 -11 -14 0
+
+c clause40 : ~p3 + x2 + p2 + s2
+-16 15 11 14 0
+
+c clause41 : p3 + ~x2 + ~p2 + ~s2
+16 -15 -11 -14 0
+
+c clause42 : p3 + ~x2 + p2 + s2
+16 -15 11 14 0
+
+c clause43 : p3 + x2 + ~p2 + s2
+16 15 -11 14 0
+
+c clause44 : p3 + x2 + p2 + ~s2
+16 15 11 -14 0
+
+c clause45 : ~p2 + q3
+-11 17 0
+
+c clause46 : p2 + ~q3
+11 -17 0
+
+c clause47 : ~q2 + r3
+-12 18 0
+
+c clause48 : q2 + ~r3
+12 -18 0
+
+c clause48 : ~r2 + s3
+-13 19 0
+
+c clause50 : r2 + ~s3
+13 -19 0

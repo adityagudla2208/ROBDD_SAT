@@ -1,0 +1,61 @@
+c nvars nclauses
+p cnf 11 16
+
+c [p0 q0 x0 p1 q1 x1 p2 q2 x2 p3 q3]
+c [01 02 03 04 05 06 07 08 09 10 11]
+
+c IS1 : ~p0
+-1 0
+
+c IS0 : ~q0
+-2 0
+
+c FS1 : p3
+10 0
+
+c FS0 : q3
+11 0
+
+c clause 1 : p1 + ~x0
+4 -3 0
+
+c clause 2 : ~p1 + x0
+-4 3 0
+
+c clause 3 : q1 + ~p0
+5 -1 0
+
+c clause 4 : ~q1 + p0
+-5 1 0
+
+c----------------------
+c----------------------
+
+c clause 1 : p2 + ~x1
+7 -6 0
+
+c clause 2 : ~p2 + x1
+-7 6 0
+
+c clause 3 : q2 + ~p1
+8 -4 0
+
+c clause 4 : ~q2 + p1
+-8 4 0
+
+c----------------------
+c----------------------
+
+c clause 1 : p3 + ~x2
+10 -9 0
+
+c clause 2 : ~p3 + x2
+-10 9 0
+
+c clause 3 : q3 + ~p2
+11 -7 0
+
+c clause 4 : ~q3 + p2
+-11 7 0
+
+
